@@ -1,0 +1,55 @@
+body {
+    background: black;
+    color: #33ff33;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .tela {
+    text-align: center;
+  }
+  
+  .quadro {
+    border: 2px solid #33ff33;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #111;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .painel-palavra {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: none;
+    background: #000;
+    color: #33ff33;
+    border-bottom: 2px solid #33ff33;
+  }
+  
+  .feedback {
+    height: 1.2em;
+    margin-bottom: 10px;
+    color: #ff3333;
+  }
+  
+  .painel-infos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  

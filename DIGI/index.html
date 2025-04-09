@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digitaço - Jogo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tela">
+    <h1>DIGITAÇO!</h1>
+
+    <div class="quadro">
+      <p class="rotulo">Digite a palavra:</p>
+      <div id="palavraAlvo" class="painel-palavra">---</div>
+
+      <input type="text" id="entradaJogador" autocomplete="off" />
+      <p id="feedback" class="feedback"></p>
+
+      <div class="painel-infos">
+        <span>⌛ Tempo: <span id="cronometro">30s</span></span>
+        <span>✔️ Pontos: <span id="pontuacao">0</span></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
